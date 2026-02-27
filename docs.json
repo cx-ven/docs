@@ -30,11 +30,11 @@
           {
             "group": "대시보드",
             "pages": [
-              "file-1",
+              "dashboard.login",
               "dashbaord.res",
               "daseboard.setting",
               "dashboard.his",
-              "file",
+              "dashboard.kio",
               "index",
               "quickstart",
               "development"
