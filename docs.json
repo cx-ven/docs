@@ -30,7 +30,7 @@
           {
             "group": "대시보드",
             "pages": [
-              "대시보드",
+              "dashboard",
               "index",
               "quickstart",
               "development"
