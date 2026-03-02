@@ -80,6 +80,7 @@
               "setting/saleNmileage",
               "setting/platformSet",
               "setting/item",
+              "setting/serviceConnect",
               "setting/property"
             ]
           }
