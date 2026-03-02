@@ -9,26 +9,13 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
-        },
-        {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
-        }
-      ]
-    },
     "tabs": [
       {
         "tab": "가이드",
         "groups": [
           {
             "group": "대시보드",
+            "icon": "chalkboard",
             "pages": [
               "dashboard/login",
               "dashboard/res",
@@ -38,7 +25,6 @@
               "dashboard/his",
               "dashboard/kio",
               "dashboard/quickmenu",
-              "dashboard/addPayment",
               "dashboard/reAssign"
             ]
           },
@@ -85,6 +71,17 @@
               "setting/item",
               "setting/serviceConnect",
               "setting/property"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "자주 묻는 기능",
+        "products": [
+          {
+            "product": "테스트",
+            "pages": [
+              "dashboard/addPayment"
             ]
           }
         ]
