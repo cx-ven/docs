@@ -29,7 +29,15 @@
         "groups": [
           {
             "group": "대시보드",
-            "pages": []
+            "pages": [
+              "dashboard/login",
+              "dashboard/res",
+              "dashboard/roomState",
+              "dashboard/roomDetail",
+              "dashbaord/todayGraph",
+              "dashboard/his",
+              "dashboard/kio"
+            ]
           },
           {
             "group": "예약",
