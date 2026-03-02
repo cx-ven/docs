@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "클라우드(PMS)",
+  "i18n": {
+    "defaultLocale": "ko",
+    "locales": ["ko", "en"]
+  },
   "colors": {
     "primary": "#811fc2",
     "light": "#5306c9",
@@ -90,10 +94,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/logo/venditLogo.svg.svg",
   "navbar": {
     "links": [],
     "primary": {
