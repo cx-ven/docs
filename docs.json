@@ -64,12 +64,18 @@
           },
           {
             "group": "프로필관리",
-            "pages": []
+            "pages": [
+              "profile/customer"
+            ]
           },
           {
             "group": "설정",
             "pages": [
-              "setting/roomRate"
+              "setting/roomRate",
+              "setting/item",
+              "setting/kiostSet",
+              "setting/platformSet",
+              "setting/property"
             ]
           }
         ]
