@@ -68,7 +68,9 @@
           },
           {
             "group": "설정",
-            "pages": []
+            "pages": [
+              "setting/roomRate"
+            ]
           }
         ]
       }
