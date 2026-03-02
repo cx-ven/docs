@@ -71,10 +71,13 @@
           {
             "group": "설정",
             "pages": [
+              "setting/roomType",
               "setting/roomRate",
-              "setting/item",
+              "setting/reservation",
               "setting/kiostSet",
+              "setting/saleNmileage",
               "setting/platformSet",
+              "setting/item",
               "setting/property"
             ]
           }
