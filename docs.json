@@ -34,9 +34,10 @@
               "dashboard/res",
               "dashboard/roomState",
               "dashboard/roomDetail",
-              "dashbaord/todayGraph",
+              "dashboard/todayGraph",
               "dashboard/his",
-              "dashboard/kio"
+              "dashboard/kio",
+              "dashboard/quickmenu"
             ]
           },
           {
