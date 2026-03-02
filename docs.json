@@ -29,13 +29,23 @@
         "groups": [
           {
             "group": "대시보드",
-            "pages": [
-              "dashboard.login",
-              "dashbaord.res",
-              "daseboard.setting",
-              "dashboard.his",
-              "dashboard.kio"
-            ]
+            "pages": []
+          },
+          {
+            "group": "예약",
+            "pages": []
+          },
+          {
+            "group": "내역",
+            "pages": []
+          },
+          {
+            "group": "프로필관리",
+            "pages": []
+          },
+          {
+            "group": "설정",
+            "pages": []
           }
         ]
       }
