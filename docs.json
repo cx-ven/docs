@@ -11,7 +11,8 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "가이드",
+        "tab": "메뉴별 기능",
+        "icon": "square-info",
         "groups": [
           {
             "group": "대시보드",
@@ -24,8 +25,7 @@
               "dashboard/todayGraph",
               "dashboard/his",
               "dashboard/kio",
-              "dashboard/quickmenu",
-              "dashboard/reAssign"
+              "dashboard/quickmenu"
             ]
           },
           {
@@ -77,13 +77,9 @@
       },
       {
         "tab": "자주 묻는 기능",
-        "products": [
-          {
-            "product": "테스트",
-            "pages": [
-              "dashboard/addPayment"
-            ]
-          }
+        "icon": "square-question",
+        "pages": [
+          "dashboard/reAssign"
         ]
       }
     ]
