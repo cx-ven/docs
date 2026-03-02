@@ -65,7 +65,9 @@
           {
             "group": "프로필관리",
             "pages": [
-              "profile/customer"
+              "profile/customer",
+              "profile/company",
+              "profile/loginAccount"
             ]
           },
           {
