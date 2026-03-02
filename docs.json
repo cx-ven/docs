@@ -30,6 +30,7 @@
           },
           {
             "group": "예약",
+            "icon": "square-list",
             "pages": [
               "reservation/view",
               "reservation/createReserv",
@@ -39,6 +40,7 @@
           },
           {
             "group": "내역",
+            "icon": "credit-card",
             "pages": [
               "payment/additionalPayment",
               "payment/cancellation",
@@ -52,6 +54,7 @@
           },
           {
             "group": "프로필관리",
+            "icon": "user",
             "pages": [
               "profile/customer",
               "profile/company",
@@ -60,6 +63,7 @@
           },
           {
             "group": "설정",
+            "icon": "gear",
             "pages": [
               "setting/roomType",
               "setting/roomRate",
@@ -79,7 +83,9 @@
         "tab": "자주 묻는 기능",
         "icon": "square-question",
         "pages": [
-          "dashboard/reAssign"
+          "dashboard/reAssign",
+          "payment/checkAdditionalPayment",
+          "dashboard/untitled-page"
         ]
       }
     ]
