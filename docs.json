@@ -51,7 +51,16 @@
           },
           {
             "group": "내역",
-            "pages": []
+            "pages": [
+              "payment/additionalPayment",
+              "payment/cancellation",
+              "payment/list",
+              "payment/list_filter",
+              "payment/paymentSettlement",
+              "payment/mileage",
+              "payment/activityLog",
+              "payment/coupon"
+            ]
           },
           {
             "group": "프로필관리",
