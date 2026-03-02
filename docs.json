@@ -94,7 +94,10 @@
       }
     ]
   },
-  "logo": "/logo/venditLogo.svg",
+  "logo": {
+    "light": "/logo/venditLogo.svg",
+    "dark": "/logo/venditLogo.svg"
+  },
   "navbar": {
     "links": [],
     "primary": {
