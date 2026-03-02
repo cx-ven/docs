@@ -41,7 +41,12 @@
           },
           {
             "group": "예약",
-            "pages": []
+            "pages": [
+              "reservation/view",
+              "reservation/createReserv",
+              "reservation/list",
+              "reservation/list_filter"
+            ]
           },
           {
             "group": "내역",
