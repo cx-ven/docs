@@ -12,7 +12,9 @@
     "dark": "#3a1480"
   },
   "favicon": "/favicon.svg",
-  "languages": [
+  
+  "navigation": {
+    "languages": [
     {
       "language": "ko",
       "default": true
@@ -20,8 +22,7 @@
     {
       "language": "en"
     }
-  ],
-  "navigation": {
+    ],
     "tabs": [
       {
         "tab": "메뉴별 기능",
