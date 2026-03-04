@@ -17,6 +17,8 @@
     "styling": {
     "eyebrows": "section"
     },
+    "anchors": [
+      {
     "languages": [
       {
         "language": "ko",
@@ -24,6 +26,7 @@
         "tabs": [
           {
             "tab": "메뉴별 기능",
+            "anchor": "메뉴별 기능",
             "icon": "square-info",
             "groups": [
               {
@@ -106,7 +109,8 @@
         "language": "en"
       }
     ]
-  },
+  }
+    ]},
   "logo": {
     "light": "/logo/venditLogo.svg",
     "dark": "/logo/venditLogo.svg"
