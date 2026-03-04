@@ -12,6 +12,15 @@
     "dark": "#3a1480"
   },
   "favicon": "/favicon.svg",
+  "languages": [
+    {
+      "language": "ko",
+      "default": true
+    },
+    {
+      "language": "en"
+    }
+  ],
   "navigation": {
     "tabs": [
       {
