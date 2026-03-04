@@ -15,92 +15,92 @@
   
   "navigation": {
     "languages": [
-    {
-      "language": "ko",
-      "default": true
-    },
-    {
-      "language": "en"
-    }
-    ],
-    "tabs": [
       {
-        "tab": "메뉴별 기능",
-        "icon": "square-info",
-        "groups": [
+        "language": "ko",
+        "default": true,
+        "tabs": [
           {
-            "group": "대시보드",
-            "icon": "chalkboard",
-            "pages": [
-              "ko/dashboard/login",
-              "ko/dashboard/res",
-              "ko/dashboard/roomState",
-              "ko/dashboard/roomDetail",
-              "ko/dashboard/todayGraph",
-              "ko/dashboard/kio",
-              "ko/dashboard/his",
-              "ko/dashboard/quickmenu"
+            "tab": "메뉴별 기능",
+            "icon": "square-info",
+            "groups": [
+              {
+                "group": "대시보드",
+                "icon": "chalkboard",
+                "pages": [
+                  "ko/dashboard/login",
+                  "ko/dashboard/res",
+                  "ko/dashboard/roomState",
+                  "ko/dashboard/roomDetail",
+                  "ko/dashboard/todayGraph",
+                  "ko/dashboard/kio",
+                  "ko/dashboard/his",
+                  "ko/dashboard/quickmenu"
+                ]
+              },
+              {
+                "group": "예약",
+                "icon": "square-list",
+                "pages": [
+                  "ko/reservation/view",
+                  "ko/reservation/createReserv",
+                  "ko/reservation/list",
+                  "ko/reservation/list_filter"
+                ]
+              },
+              {
+                "group": "내역",
+                "icon": "credit-card",
+                "pages": [
+                  "ko/payment/cancellation",
+                  "ko/payment/list",
+                  "ko/payment/list_filter",
+                  "ko/payment/paymentSettlement",
+                  "ko/payment/mileage",
+                  "ko/payment/activityLog",
+                  "ko/payment/coupon",
+                  "ko/payment/additionalPayment"
+                ]
+              },
+              {
+                "group": "프로필관리",
+                "icon": "user",
+                "pages": [
+                  "ko/profile/company",
+                  "ko/profile/customer",
+                  "ko/profile/loginAccount"
+                ]
+              },
+              {
+                "group": "설정",
+                "icon": "gear",
+                "pages": [
+                  "ko/setting/roomType",
+                  "ko/setting/roomRate",
+                  "ko/setting/reservation",
+                  "ko/setting/SMS",
+                  "ko/setting/kiostSet",
+                  "ko/setting/saleNmileage",
+                  "ko/setting/platformSet",
+                  "ko/setting/item",
+                  "ko/setting/serviceConnect",
+                  "ko/setting/property"
+                ]
+              }
             ]
           },
           {
-            "group": "예약",
-            "icon": "square-list",
+            "tab": "자주 묻는 기능",
+            "icon": "square-question",
             "pages": [
-              "ko/reservation/view",
-              "ko/reservation/createReserv",
-              "ko/reservation/list",
-              "ko/reservation/list_filter"
-            ]
-          },
-          {
-            "group": "내역",
-            "icon": "credit-card",
-            "pages": [
-              "ko/payment/cancellation",
-              "ko/payment/list",
-              "ko/payment/list_filter",
-              "ko/payment/paymentSettlement",
-              "ko/payment/mileage",
-              "ko/payment/activityLog",
-              "ko/payment/coupon",
-              "ko/payment/additionalPayment"
-            ]
-          },
-          {
-            "group": "프로필관리",
-            "icon": "user",
-            "pages": [
-              "ko/profile/company",
-              "ko/profile/customer",
-              "ko/profile/loginAccount"
-            ]
-          },
-          {
-            "group": "설정",
-            "icon": "gear",
-            "pages": [
-              "ko/setting/roomType",
-              "ko/setting/roomRate",
-              "ko/setting/reservation",
-              "ko/setting/SMS",
-              "ko/setting/kiostSet",
-              "ko/setting/saleNmileage",
-              "ko/setting/platformSet",
-              "ko/setting/item",
-              "ko/setting/serviceConnect",
-              "ko/setting/property"
+              "ko/payment/checkAdditionalPayment",
+              "ko/dashboard/untitled-page",
+              "ko/dashboard/reAssign"
             ]
           }
         ]
       },
       {
-        "tab": "자주 묻는 기능",
-        "icon": "square-question",
-        "pages": [
-          "ko/payment/checkAdditionalPayment",
-          "ko/dashboard/untitled-page",
-          "ko/dashboard/reAssign"
-        ]
+        "language": "en"
       }
     ]
   },
