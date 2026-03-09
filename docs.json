@@ -95,7 +95,7 @@
             "pages": [
               "ko/payment/checkAdditionalPayment",
               "ko/dashboard/reAssign",
-              "ko/rate"
+              "ko/setting/roomRateGuide"
             ]
           }
         ]
