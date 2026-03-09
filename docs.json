@@ -30,7 +30,7 @@
                   "ko/dashboard/login",
                   "ko/dashboard/res",
                   "ko/dashboard/roomState",
-                  "ko/dashboard/reAssignGuide",
+                  "ko/dashboard/roomAssign",
                   "ko/dashboard/roomDetail",
                   "ko/dashboard/todayGraph",
                   "ko/dashboard/kio",
