@@ -45,7 +45,8 @@
                   "ko/reservation/view",
                   "ko/reservation/createReserv",
                   "ko/reservation/list",
-                  "ko/reservation/list_filter"
+                  "ko/reservation/list_filter",
+                  "ko/reservation/editRes"
                 ]
               },
               {
