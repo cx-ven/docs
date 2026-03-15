@@ -106,7 +106,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/venditLogo.svg"
+    "light": "/logo/venditLogo.svg",
+    "dark": "/logo/venditLogo.svg"
   },
   "navbar": {
     "links": [],
