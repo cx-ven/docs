@@ -82,7 +82,6 @@
                   "ko/setting/kiostSet",
                   "ko/setting/saleNmileage",
                   "ko/setting/platformSet",
-                  "ko/setting/item",
                   "ko/setting/serviceConnect",
                   "ko/setting/property"
                 ]
