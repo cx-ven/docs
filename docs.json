@@ -8,8 +8,7 @@
   },
   "colors": {
     "primary": "#811fc2",
-    "light": "#5306c9",
-    "dark": "#3a1480"
+    "light": "#5306c9"
   },
   "favicon": "/favicon.svg",
   
@@ -107,8 +106,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/venditLogo.svg",
-    "dark": "/logo/venditLogo.svg"
+    "light": "/logo/venditLogo.svg"
   },
   "navbar": {
     "links": [],
