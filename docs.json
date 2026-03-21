@@ -96,6 +96,12 @@
               "ko/dashboard/reAssign",
               "ko/setting/roomRateGuide"
             ]
+          },
+          {
+            "tab": "모바일 V CLOUD",
+            "pages": [
+              "file"
+            ]
           }
         ]
       },
