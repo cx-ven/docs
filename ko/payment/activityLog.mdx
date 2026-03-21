@@ -2,6 +2,8 @@
 title: "객실 및 직원활동 내역  "
 ---
 
+[대시보드 → 우측 하단에 나오는 사용기록](https://docs.vendit.info/ko/dashboard/his)과 동일한 내용을 볼 수 있습니다.
+
 객실 및 직원활동 내역에서는 시스템에 기록된 작업 및 알림 이력을 확인할 수 있습니다.\
 ※ 일부 알림은 저장되지 않을 수 있습니다.
 
@@ -13,12 +15,38 @@ title: "객실 및 직원활동 내역  "
 - 상세 내용
 - 중요도
 
+---
+
 ### 필터 조회
 
-아래 조건으로 내역을 검색할 수 있습니다.
+<img
+  src="/images/image-9.png"
+  alt="Image"
+  title="Image"
+  style={{ width:"38%" }}
+/>
 
-- 기록 일시
-- 담당 직원
-- 타입\
-  (시설 알림 / 직원 알림 / 키오스크)
-- 객실 타입
+<AccordionGroup>
+  <Accordion title="기록일시" icon="1">
+    이력 확인을 원하는 일시 선택 가능
+  </Accordion>
+
+  <Accordion title="담당직원" icon="2">
+    계정 별 작업 이력
+  </Accordion>
+
+  <Accordion title="타입" icon="3">
+    - 시설 알림 : 문 열림/문 닫힘/객실 상태변경 이력/예약 배정 이력\
+      (사용기록 내 \[객실\] 탭 이력과 동일)
+    -  키오스크 : 키오스크에서 발생된 모든 이력\
+      (사용기록 내 \[키오스크\] 탭 이력과 동일
+  </Accordion>
+
+  <Accordion title="연관객실" icon="4">
+    - 클라우드 내 생성되어있는 객실
+  </Accordion>
+
+  <Accordion title="객실 타입" icon="5">
+    - 클라우드 내 생성되어있는 객실 타입
+  </Accordion>
+</AccordionGroup>
