@@ -103,8 +103,8 @@
               {
                 "group": "안드로이드(AOS)만 지원",
                 "pages": [
-                  "file",
-                  "file-1"
+                  "ko/mobile/login_dashboard",
+                  "ko/mobile/menuToSetting"
                 ]
               }
             ]
