@@ -99,8 +99,14 @@
           },
           {
             "tab": "모바일 V CLOUD",
-            "pages": [
-              "file"
+            "groups": [
+              {
+                "group": "안드로이드(AOS)만 지원",
+                "pages": [
+                  "file",
+                  "file-1"
+                ]
+              }
             ]
           }
         ]
