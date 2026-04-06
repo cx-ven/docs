@@ -113,10 +113,11 @@
             "tab": "키오스크",
             "hidden": true,
             "pages": [
-              "1",
-              "2",
-              "3",
-              "file"
+              "HW/firstGenStand",
+              "HW/secondGenStand",
+              "HW/thirdGenStand",
+              "HW/mini",
+              "HW/verification"
             ]
           }
         ]
