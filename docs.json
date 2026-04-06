@@ -117,7 +117,8 @@
               "HW/secondGenStand",
               "HW/thirdGenStand",
               "HW/mini",
-              "HW/verification"
+              "HW/verification",
+              "HW/cashDispensingMachine"
             ]
           }
         ]
