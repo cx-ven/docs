@@ -1,4 +1,81 @@
 ---
-title: '현금방출기'
+title: "현금방출기"
 ---
 
+---
+
+현금 방출기에서 현금 방출이 안되는 경우 자체적으로 해결할 수 있습니다.
+
+먼저, 키오스크 하부장을 열어 현금방출기 LED를 확인해주세요.
+
+<Columns cols={2}>
+  <Column>
+    **정상일 때 : StoP**
+
+    <img
+      src="/images/image-28.png"
+      alt="Image"
+      title="Image"
+      style={{ width:"53%" }}
+    />
+  </Column>
+  <Column>
+    **문제가 있을 때 : Er   숫자**
+
+    <img
+      src="/images/image-26.png"
+      alt="Image"
+      title="Image"
+      style={{ width:"53%" }}
+    />
+  </Column>
+</Columns>
+
+---
+
+# 에러 코드로 확인하는 자가 해결 방법
+
+**_Er 1 :_** 지폐 부족
+
+- 해결 방법
+  - 지폐가 적재함이 없거나 20매 이하로 남은 경우 발생 가능 해결 영상 :[https://youtu.be/pXMZ-BxWxlI?feature=shared&t=44](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=44)
+
+**_Er 2 :_** 배출중 걸림 or 초기동작시 이물질 감지
+
+- 해결 방법
+  1. 현금 모두 뺀 후 롤러를 돌려 이물질 제거
+  2. 면봉으로 센서 청소 ([https://youtu.be/pXMZ-BxWxlI?feature=shared&t=69](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=69))
+  3. Er.3번과 같이 지폐가 두 장 겹친 경우에도 Er.2번이 뜨는 때가 있으니 2~3번을 같이 진행 요청드리기.
+
+**_Er 3 :_** 지폐가 두 장 이상 겹쳐서 방출
+
+- 해결 방법
+  - 지폐가 접혀있는 경우 (끝 쪽) 발생 가능 해결 영상 :[https://youtu.be/pXMZ-BxWxlI?feature=shared&t=143](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=143)
+
+**_Er 4 :_** 배출중 지폐 없음
+
+- 해결 방법
+  - 지폐 적재 필요 해결 영상 :[https://youtu.be/pXMZ-BxWxlI?feature=shared&t=164](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=164)
+
+**_Er 5 :_** 지폐가 일정간격이 아닌 비정상적으로 배출됌.
+
+- 해결 방법
+  - 지폐가 젖어서 서로 붙어있거나, 찢어져있을 때 가로 길이가 달라서 발생 됨 해결 영상 :[https://youtu.be/pXMZ-BxWxlI?feature=shared&t=184](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=184)
+
+**_Er 6 :_** 지폐가 훼손되어 있는 경우
+
+- 해결 방법
+  - 지폐가 젖어서 서로 붙어있거나, 찢어져있을 때 가로 길이가 달라서 발생 됨 해결 영상 :[https://youtu.be/pXMZ-BxWxlI?feature=shared&t=192](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=192)
+
+**_Er 12 :_** 모터 또는 엔코더 고장
+
+- 자가 해결 방법 없음으로 A/S요청
+
+**_Er 14 :_** 배출중 지폐가 접혀있어 한쪽 센서만 감지될 경우
+
+- 해결 방법
+  - 적재 된 지폐상태 확인 필요 해결 영상 :[https://youtu.be/pXMZ-BxWxlI?feature=shared&t=216](https://youtu.be/pXMZ-BxWxlI?feature=shared&t=216)
+
+리셋 방
+
+![Image](/images/image-27.png)
