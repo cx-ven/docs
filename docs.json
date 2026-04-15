@@ -117,8 +117,9 @@
               "HW/secondGenStand",
               "HW/thirdGenStand",
               "HW/mini",
+              "HW/cashDispensingMachine",
               "HW/verification",
-              "HW/cashDispensingMachine"
+              "HW/pcReboot"
             ]
           }
         ]
