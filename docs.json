@@ -29,7 +29,7 @@
                   "ko/dashboard/login",
                   "ko/dashboard/res",
                   "ko/dashboard/roomState",
-                  "ko/dashboard/file",
+                  "ko/dashboard/roomAssign",
                   "ko/dashboard/roomDetail",
                   "ko/dashboard/todayGraph",
                   "ko/dashboard/kio",
