@@ -99,10 +99,13 @@
             ]
           },
           {
-            "tab": "모바일 V CLOUD",
+            "tab": "V CLOUD 앱",
+            "icon": "mobile-screen",
             "groups": [
               {
                 "group": "안드로이드(AOS)만 지원",
+                "tag": "아이폰 미지원",
+                "expanded": true,
                 "pages": [
                   "ko/mobile/login_dashboard",
                   "ko/mobile/menu"

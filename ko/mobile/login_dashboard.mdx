@@ -6,83 +6,88 @@ title: "로그인 및 대시보드"
 
 # 로그인
 
-<Columns cols={2}>
-  <Column>
-    <img
-      src="/images/mo클라우드_로그인.png"
-      alt="Image"
-      style={{ width:"97%" }}
-    />
-  </Column>
-  <Column>
-    <img
-      src="/images/mo클라우드_업장선택.png"
-      alt="Image"
-      style={{ width:"97%" }}
-    />
-  </Column>
-</Columns>
+<Callout color="#c290ea">
+  <Columns cols={2}>
+    <Column>
+      <img
+        src="/images/mo클라우드_로그인.png"
+        alt="Image"
+        style={{ width:"80%" }}
+      />
+    </Column>
+    <Column>
+      <img
+        src="/images/mo클라우드_업장선택.png"
+        alt="Image"
+        style={{ width:"80%" }}
+      />
+    </Column>
+  </Columns>
+</Callout>
 
 ---
 
 # 대시보드
 
-<Tabs>
-  <Tab title="모바일 객실현황">
-    ### 모바일 객실현황
 
-    <img
-      src="/images/mo클라우드_객실현황.png"
-      alt="Image"
-      title="Image"
-      style={{ width:"65%" }}
-    />
+<Callout color="#c290ea">
+  <Tabs>
+    <Tab title="🟢 모바일 객실현황">
+      ### 모바일 객실현황
 
-    상세보기, 요약보기
+      <img
+        src="/images/mo클라우드_객실현황.png"
+        alt="Image"
+        title="Image"
+        style={{ width:"65%" }}
+      />
 
-    - 객실 배정이 필요한 경우 예약 카드를 드래그하여 배정이 불가합니다. 드래그로 객실 배정이 필요한 경우 PC 모드로 전환 후 배정을 해주세요.\
-      👉[<kbd>PC모든 전환하는 방법</kbd>](https://docs.vendit.info/ko/mobile/menu#%EC%84%A4%EC%A0%95) 바로가기
-    - PC모드일 경우 예약 배정 / 병합만 가능하며, 객실 변경은 불가합니다.
-  </Tab>
-  <Tab title="모바일 예약/알림">
-    <img
-      src="/images/mo클라우드_예약/알림.png"
-      alt="Image"
-      title="Image"
-      style={{ width:"34%" }}
-    />
-  </Tab>
-  <Tab title="모바일 퀵메뉴">
-    **1. 팔레트**
+      상세보기, 요약보기
 
-    <Columns cols={2}>
-      <Column>
-        <img
-          src="/images/mo클라우드_퀵메뉴.png"
-          alt="Image"
-          title="Image"
-          style={{ width:"60%" }}
-        />
-      </Column>
-      <Column>
-        변경 가능한 상태 : 점검지시, 점검 중, 청소 중, 청소지시, 공실, 판매중지
-      </Column>
-    </Columns>
+      - 객실 배정이 필요한 경우 예약 카드를 드래그하여 배정이 불가합니다. 드래그로 객실 배정이 필요한 경우 PC 모드로 전환 후 배정을 해주세요.\
+        👉[<kbd>PC모든 전환하는 방법</kbd>](https://docs.vendit.info/ko/mobile/menu#%EC%84%A4%EC%A0%95) 바로가기
+      - PC모드일 경우 예약 배정 / 병합만 가능하며, 객실 변경은 불가합니다.
+    </Tab>
+    <Tab title="🟢 모바일 예약/알림">
+      <img
+        src="/images/mo클라우드_예약/알림.png"
+        alt="Image"
+        title="Image"
+        style={{ width:"34%" }}
+      />
+    </Tab>
+    <Tab title="🟢 모바일 퀵메뉴">
+      **1. 팔레트**
 
-    **2. 톱니바퀴 설정**
+      <Columns cols={2}>
+        <Column>
+          <img
+            src="/images/mo클라우드_퀵메뉴.png"
+            alt="Image"
+            title="Image"
+            style={{ width:"60%" }}
+          />
+        </Column>
+        <Column>
+          변경 가능한 상태 : 점검지시, 점검 중, 청소 중, 청소지시, 공실, 판매중지
+        </Column>
+      </Columns>
 
-    <Columns cols={2}>
-      <Column>
-        <img
-          src="/images/mo클라우드_톱니바퀴설정.png"
-          alt="Image"
-          title="Image"
-          style={{ width:"60%" }}
-        />
-      </Column>
-      <Column>
-        줄당 객실 표시갯수 : 최소 2 ~ 최대 20
-      </Column>
-    </Columns>
-  </Tab>
-</Tabs>
+      **2. 톱니바퀴 설정**
+
+      <Columns cols={2}>
+        <Column>
+          <img
+            src="/images/mo클라우드_톱니바퀴설정.png"
+            alt="Image"
+            title="Image"
+            style={{ width:"60%" }}
+          />
+        </Column>
+        <Column>
+          줄당 객실 표시갯수 : 최소 2 ~ 최대 20
+        </Column>
+      </Columns>
+    </Tab>
+  </Tabs>
+</Callout>
