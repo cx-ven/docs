@@ -115,7 +115,6 @@
           },
           {
             "tab": "키오스크",
-            "hidden": true,
             "pages": [
               "HW/firstGenStand",
               "HW/secondGenStand",
