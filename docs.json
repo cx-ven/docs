@@ -63,6 +63,13 @@
                 ]
               },
               {
+                "group": "손익/통계",
+                "icon": "chart-column",
+                "pages": [
+                  "file"
+                ]
+              },
+              {
                 "group": "프로필관리",
                 "icon": "user",
                 "pages": [
