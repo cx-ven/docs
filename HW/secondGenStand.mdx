@@ -3,9 +3,58 @@ title: "2세대"
 icon: "2"
 ---
 
-import KeyNotDispensed from '/snippets/KeyNotDispensed.mdx';
+<Card title="　" icon="scanner-touchscreen" horizontal>
+  <Columns cols={3}>
+    <Column>
+      <Card title="전원 위치" horizontal>
+      </Card>
+    </Column>
+    <Column>
+      <Card title="회수함 위치" horizontal>
+      </Card>
+    </Column>
+    <Column>
+      <Card title="현금통 위치" horizontal>
+      </Card>
+    </Column>
+  </Columns>
+</Card>
 
-# 2세대 키오스크 회수함 위치
+<Card title="　" icon="print" horizontal>
+  <Columns cols={3}>
+    <Column>
+      <Card title="영수증 교체 방법" horizontal>
+      </Card>
+    </Column>
+    <Column>
+      <Card title="종이가 찝힐 때" horizontal>
+      </Card>
+    </Column>
+    <Column>
+      <Card title="종이가 안 나올 때" horizontal>
+      </Card>
+    </Column>
+  </Columns>
+</Card>
+
+<Card title="　" icon="scanner-touchscreen" horizontal>
+  <Columns cols={3}>
+    <Column>
+      <Card title="키가 안나올 때" horizontal>
+      </Card>
+    </Column>
+    <Column>
+      <Card title="회수함 위치" horizontal>
+      </Card>
+    </Column>
+    <Column>
+      <Card title="현금통 위치" horizontal>
+      </Card>
+    </Column>
+  </Columns>
+</Card>
+
+---
 
 대시보드 우측 사용기록에 \*\*‘방출기 회수통 가득참’\*\*이 표시되면, 키오스크 하부장을 열고 적재함 아래 회수함의 키를 꺼내 주세요.
 
@@ -17,7 +66,11 @@ import KeyNotDispensed from '/snippets/KeyNotDispensed.mdx';
   style={{ width:"50%" }}
 />
 
----
+<img
+  src="/images/HW_2세대_3세대_회수함.png"
+  alt="Image"
+  style={{ width:"50%" }}
+/>
 
 # 2세대 현금통
 
@@ -38,8 +91,6 @@ import KeyNotDispensed from '/snippets/KeyNotDispensed.mdx';
   </Column>
 </Columns>
 
----
-
 # 디스플레이, 카메라 USB 위치
 
 <Columns cols={2}>
@@ -54,8 +105,6 @@ import KeyNotDispensed from '/snippets/KeyNotDispensed.mdx';
     </Frame>
   </Column>
 </Columns>
-
----
 
 # 키오스크 영수증 교체하는 방법
 
@@ -122,6 +171,15 @@ import KeyNotDispensed from '/snippets/KeyNotDispensed.mdx';
   width="500"
 />
 
----
+<img
+  src="/images/대시보드_객실상태.png"
+  width="500"
+/>
 
 <KeyNotDispensed />
+
+<Card title="객실키가 안나와요" icon="sparkles" cta={<KeyNotDispensed />}>
+  <KeyNotDispensed />
+</Card>
+
+DFDFDF
