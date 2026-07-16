@@ -3,56 +3,16 @@ title: "2세대"
 icon: "2"
 ---
 
-<Card title="　" icon="scanner-touchscreen" horizontal>
-  <Columns cols={3}>
-    <Column>
-      <Card title="전원 위치" horizontal>
-      </Card>
-    </Column>
-    <Column>
-      <Card title="회수함 위치" horizontal>
-      </Card>
-    </Column>
-    <Column>
-      <Card title="현금통 위치" horizontal>
-      </Card>
-    </Column>
-  </Columns>
-</Card>
+{/*  목차 섹션  */}
 
-<Card title="　" icon="print" horizontal>
-  <Columns cols={3}>
-    <Column>
-      <Card title="영수증 교체 방법" horizontal>
-      </Card>
-    </Column>
-    <Column>
-      <Card title="종이가 찝힐 때" horizontal>
-      </Card>
-    </Column>
-    <Column>
-      <Card title="종이가 안 나올 때" horizontal>
-      </Card>
-    </Column>
-  </Columns>
-</Card>
+<CardGroup cols={2}>
+  <Card title="객실키 안나왔어요" icon="rectangle-history" href="#KeyNotDispensed">
+  </Card>
 
-<Card title="　" icon="scanner-touchscreen" horizontal>
-  <Columns cols={3}>
-    <Column>
-      <Card title="키가 안나올 때" horizontal>
-      </Card>
-    </Column>
-    <Column>
-      <Card title="회수함 위치" horizontal>
-      </Card>
-    </Column>
-    <Column>
-      <Card title="현금통 위치" horizontal>
-      </Card>
-    </Column>
-  </Columns>
-</Card>
+  <Card title="상세 조회" icon="magnifying-glass" href="#detailed-inquiry">
+    상세 조회 섹션으로 이동
+  </Card>
+</CardGroup>
 
 ---
 
@@ -176,10 +136,6 @@ icon: "2"
   width="500"
 />
 
+## 객실키가 안나올 때 {#KeyNotDispensed}
+
 <KeyNotDispensed />
-
-<Card title="객실키가 안나와요" icon="sparkles" cta={<KeyNotDispensed />}>
-  <KeyNotDispensed />
-</Card>
-
-DFDFDF
