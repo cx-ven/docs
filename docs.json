@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "클라우드(PMS)",
+  "name": "VENDIT 가이드",
   "i18n": {
     "defaultLocale": "ko",
     "locales": ["ko", "en"]
