@@ -129,7 +129,8 @@
               "HW/thirdGenStand",
               "HW/mini",
               "HW/cashDispensingMachine",
-              "HW/verification"
+              "HW/verification",
+              "HW/file"
             ]
           }
         ]
