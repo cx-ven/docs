@@ -63,7 +63,7 @@
                 ]
               },
               {
-                "group": "손익/통계",
+                "group": "손익/통계(VPMS)",
                 "icon": "chart-column",
                 "pages": [
                   "file",
