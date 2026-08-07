@@ -103,7 +103,8 @@
               "ko/payment/checkAdditionalPayment",
               "ko/dashboard/reAssign",
               "ko/setting/roomRateGuide",
-              "ko/payment/reprintReceipt"
+              "ko/payment/reprintReceipt",
+              "untitled-page"
             ]
           },
           {
