@@ -54,12 +54,12 @@
                 "pages": [
                   "ko/payment/cancellation",
                   "ko/payment/additionalPayment",
+                  "ko/payment/list_filter",
                   "ko/payment/list",
                   "ko/payment/paymentSettlement",
                   "ko/payment/mileage",
                   "ko/payment/activityLog",
-                  "ko/payment/coupon",
-                  "ko/payment/list_filter"
+                  "ko/payment/coupon"
                 ]
               },
               {
