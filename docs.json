@@ -166,5 +166,8 @@
     "strict": true,
     "default": "light",
     "isHidden": true
+  },
+  "fonts": {
+    "family": "Noto Sans KR"
   }
 }
