@@ -169,5 +169,10 @@
   },
   "fonts": {
     "family": "Noto Sans KR"
+  },
+  "thumbnails": {
+    "fonts": {
+      "family": "Noto Sans KR"
+    }
   }
 }
